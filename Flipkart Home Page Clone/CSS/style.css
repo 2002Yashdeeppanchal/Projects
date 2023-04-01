@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #2874f0;
+  font-family: 'Alkatra', cursive;
+}
+
+header nav{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  min-height: calc(100vh - 70px - 11vh);
+}
+
+.logo img{
+  width: 88px;
+  padding: 0 24px;
+}
+
+header nav ul li{
+  list-style: none;
+  padding: 12px;
+}
+
+header nav ul{
+  display: flex;
+  height: 58px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  font-weight: bolder;
+}
+
+.searchbar{
+  display: flex;
+  align-items: center;
+  margin: 0 110px;
+}
+
+.searchbar input{
+  width: 30vw;
+  height: 23px;
+  border-radius: 5px;
+  padding: 0 12px;
+}
+
+.btn{
+  /* padding: 5px 12px 5px 12px; */
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 12px;
+  font-family: 'Alkatra', cursive;
+  height: 25px;
+  width: 50px;
+}
+
+.btn:hover{
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 35px;
+  padding-top: 5px;
+}
+
+.card{
+  margin: auto;
+  max-width: 96vw;
+}
+
+.cards{
+  display: flex;
+  overflow: scroll;
+}
+
+.card-items{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.card h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-1{
+  margin: 5px 0;
+}
+
+.logo img:hover{
+  cursor: pointer;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.slider{
+  width: 80vw;
+  margin: 12px auto;
+  overflow: hidden;
+}
+
+footer{
+  height: 11vh;
+  background-color: #2874f0;
+  color: white;
+  font-family: 'Alkatra', cursive;
+  margin-top: 25px;
+}
